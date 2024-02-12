@@ -1730,22 +1730,22 @@ pre code {
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: white;
+  border-color: rgb(3, 3, 3);
 }
 
 .table-hover .table-light:hover {
-  background-color: #f2f2f2;
+  background-color: #111110;
 }
 
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #f2f2f2;
+  background-color: #131010;
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #c6c8ca;
+  background-color: #0a0a0a;
 }
 
 .table-dark th,
@@ -1756,12 +1756,12 @@ pre code {
 }
 
 .table-hover .table-dark:hover {
-  background-color: #b9bbbe;
+  background-color: #111213;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #b9bbbe;
+  background-color: #0b0b0c;
 }
 
 .table-active,
@@ -2666,7 +2666,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0BCEAF;
+  color: #2e635d;
   border-color: #0BCEAF;
 }
 
@@ -3645,8 +3645,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #0BCEAF;
-  background-color: #0BCEAF;
+  border-color: #0bce45;
+  background-color: #0bce1b;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -9960,7 +9960,7 @@ h6,
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
+  background: #007bff;
 }
 
 .blog-date {
@@ -9981,4 +9981,5 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: #007bff;
 }
